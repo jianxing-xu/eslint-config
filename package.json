@@ -1,7 +1,7 @@
 {
   "name": "@jianxing/eslint-config",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "packageManager": "pnpm@9.3.0",
   "description": "Jianxing Xu ESLint config",
   "author": "Jianxing Xu <xjx_me@yeah.net> (https://github.com/jianxing-xu/)",
@@ -32,7 +32,7 @@
     "lint": "eslint .",
     "typegen": "esno scripts/typegen.ts",
     "prepack": "nr build",
-    "release": "bumpp && pnpm publish",
+    "release": "bumpp && pnpm publish --access=public",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
