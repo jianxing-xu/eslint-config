@@ -1,7 +1,7 @@
 {
   "name": "@jianxing/eslint-config",
   "type": "module",
-  "version": "2.21.1",
+  "version": "1.0.1",
   "packageManager": "pnpm@9.3.0",
   "description": "Jianxing Xu ESLint config",
   "author": "Jianxing Xu <xjx_me@yeah.net> (https://github.com/jianxing-xu/)",
